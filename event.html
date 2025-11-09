@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>La Casa del Jinete</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Ícono para la pestaña -->
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar start -->
+    <div class="container-fluid nav-bar">
+        <div class="container">
+            <nav class="navbar navbar-light navbar-expand-lg py-4">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-primary fw-bold mb-0">La Casa <span class="text-dark">Del Jinete</span> </h1>
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="event.html" class="nav-item nav-link">Servicios</a>
+                        <a href="menu.html" class="nav-item nav-link">Tienda</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Paginas de
+                                Interés</a>
+                            <div class="dropdown-menu bg-light">
+                                <a href="about.html" class="dropdown-item">Sobre Nosotros</a>
+                                <a href="testimonial.html" class="dropdown-item">Opiniones</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="contact.html"
+                        class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Contáctanos</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-light py-6 my-6 mt-0">
+        <div class="container text-center animated bounceInDown">
+            <h1 class="display-1 mb-4">Servicios</h1>
+            <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item text-dark" aria-current="page">Servicios</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Events Start -->
+    <div class="container-fluid event py-6">
+        <div class="container">
+            <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+
+                <h1 class="display-5 mb-5">Servicios que ofrecemos</h1>
+            </div>
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp"
+                    data-wow-delay="0.1s">
+                    <li class="nav-item p-2">
+                        <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill active"
+                            data-bs-toggle="pill" href="#tab-1">
+                            <span class="text-dark" style="width: 150px;">Todos los Servicios</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-2">
+                            <span class="text-dark" style="width: 150px;">Herraje</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-3">
+                            <span class="text-dark" style="width: 150px;">Esquilaje</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-4">
+                            <span class="text-dark" style="width: 150px;">Estetica CTO</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-5">
+                            <span class="text-dark" style="width: 150px;">Venta</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-1.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Moldeado De La Herradura</h4>
+                                                <a href="img/event-1.jpg" data-lightbox="event-1" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-2.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Comprobación Del Tamaño De La Herradura Escogida</h4>
+                                                <a href="img/event-2.jpg" data-lightbox="event-2" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-3.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Esquilaje Básico</h4>
+                                                <a href="img/event-3.jpg" data-lightbox="event-3" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-4.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Esquilaje Con Diseño Personalizado</h4>
+                                                <a href="img/event-4.jpg" data-lightbox="event-4" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-5.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Diseño Y Equipamiento Para Equitación</h4>
+                                                <a href="img/event-5.jpg" data-lightbox="event-5" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-6.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Poporción De Todo Tipo De Equipamiento Deportivo</h4>
+                                                <a href="img/event-6.jpg" data-lightbox="event-6" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-7.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Montura Española</h4>
+                                                <a href="img/event-7.jpg" data-lightbox="event-7" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-8.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Botas De Montería Altas</h4>
+                                                <a href="img/event-8.jpg" data-lightbox="event-17" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-1.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Moldeado De La Herradura</h4>
+                                                <a href="img/event-1.jpg" data-lightbox="event-8" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-2.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Comprobación Del Tamaño De La Herradura Escogida</h4>
+                                                <a href="img/event-2.jpg" data-lightbox="event-9" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-3.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Esquilaje Básico</h4>
+                                                <a href="img/event-3.jpg" data-lightbox="event-10" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-4.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Esquilaje Con Diseño Personalizado</h4>
+                                                <a href="img/event-4.jpg" data-lightbox="event-11" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-4" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-5.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Diseño Y Equipamiento Para Equitación</h4>
+                                                <a href="img/event-5.jpg" data-lightbox="event-12" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-6.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Poporción De Todo Tipo De Equipamiento Deportivo</h4>
+                                                <a href="img/event-6.jpg" data-lightbox="event-13" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-5" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-7.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Montura Española</h4>
+                                                <a href="img/event-7.jpg" data-lightbox="event-14" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="event-img position-relative">
+                                            <img class="img-fluid rounded w-100" src="img/event-8.jpg" alt="">
+                                            <div class="event-overlay d-flex flex-column p-4">
+                                                <h4 class="me-auto">Botas De Montería Altas</h4>
+                                                <a href="img/event-8.jpg" data-lightbox="event-15" class="my-auto"><i
+                                                        class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events End -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer-item">
+                        <h1 class="text-primary">La Casa <span class="text-dark">Del Jinete</span></h1>
+                        <p class="lh-lg mb-4"> <strong>En "La Casa del Jinete" disponemos de todos los productos
+                                necesarios que precisamos en nuestro día a día relacionados con el mundo del
+                                caballo</strong></p>
+                        <div class="footer-icon d-flex">
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer-item">
+                        <h4 class="mb-4">¿Por que nosotros?</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Envío máximo 48H</a>
+                            <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Devolución
+                                sencilla</a>
+                            <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Productos fábricados
+                                en España</a>
+                            <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Disponemos de
+                                profesionales del sector</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Contacto</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Calle de la Herradura 23,
+                                Argamasilla de Alba (Ciudad Real)</p>
+                            <p><i class="fa fa-phone-alt text-primary me-2"></i> +34 623 190 448</p>
+                            <p><i class="fas fa-envelope text-primary me-2"></i> lacasadelginete@gmail.com</p>
+                            <p><i class="fa fa-clock text-primary me-2"></i> <br> Lunes a Viernes: <strong> 09:00 -
+                                    14:00 y 17:00 - 20:00 </strong> <br>Sábado:<strong> 09:00 - 14:00</strong> <br>
+                                Domingo: <strong>Cerrado</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>La Casa del
+                            Jinete</a>, Todos los derechos reservados.</span>
+                </div>
+
+                <div class="col-md-6 my-auto text-center text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    <!--Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
